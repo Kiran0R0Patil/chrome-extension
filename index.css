@@ -1,3 +1,7 @@
+:root{
+    --main-color: #36413E;
+    --inside-text: #fff;
+}
 body{
     margin: 0;
     padding: 10px;
@@ -9,18 +13,18 @@ input{
     padding : 10px ;
     width: 100%;
     box-sizing: border-box;
-    border:1px solid #5f9341;
+    border:1px solid var(--main-color);
     margin-bottom: 4px;
 }
 button{
-    background: #5f9341;
+    background: var(--main-color);
     padding: 10px 20px;
     font-weight: bold;
-    color: #ffffff;
-    border: 1px solid #5f9341;
+    color: var(--inside-text);
+    border: 1px solid var(--main-color);
 }
 
 #delete-btn{
-    background: #ffffff;
-    color: #5f9341;
+    background: var(--inside-text);
+    color: var(--main-color);
 }
