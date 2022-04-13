@@ -7,7 +7,7 @@ So, here **local Storage** is used :
 
 to *add* item to local storage we use following syntax
 ```javascript
-    localStorage.setItem("myLeads",myLeads)
+    localStorage.setItem("myLeads",myLeads) // myLeads = [url] to be stored as value of  the key myLeads 
 ```
 
 to *fetch* the data from the local storage
@@ -29,18 +29,18 @@ To Get the **URL** of the current tab from a Google Chrome extension
 ```javascript
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
         myLeads.push(tabs[0].url)
-        <!-- add operation you wanna do here  wrt url -->
+        // add operation you wanna do here wrt url
     }
 ```
--  This requires that you request access to the `chrome.tabs` API in your extension `manifest`:
+-  This requires that you request access to the `chrome.tabs` API in your *extension manifest*:
 ```json
-  "permissions": [ ...
+  "permissions": [ 
         "tabs"
     ] 
 ```
 
 ## To use this extension or add more features
 
-   - download this repo to your destop 
-   - go to chrome extensions and *load* this folder (if load option not available turn ON the developer mode )
+   - download this repo in your destop 
+   - go to chrome extensions and *load* this folder (if load option not available turn ON the developer mode)
    - all set to go
