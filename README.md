@@ -4,7 +4,7 @@ _Learn javaScript while making projects_
 
 This project is as the repo-name means, Basically a extension on my browser to save a tab just as a bookmark does.
 
----
+___
 
 Add this extension to your browser to see how this works
 
