@@ -1,6 +1,18 @@
 # chrome-extension
 
-Learn javaScript while making projects 
+*Learn javaScript while making projects* 
+___
+This project is as  the repo-name means, Basically a extension on my browser to save a tab just as a bookmark does.
+
+## Add this extension to your browser to see how this works
+
+   1. download this repo in your destop 
+   2. go to chrome extensions and `load` this folder (if load option not available turn ON the developer mode)
+   3. all set to go
+
+---
+### Concepts I came across / used
+
 The first challenge was to store the input data as it keeps getting empty once the page is refreshed.
 
 So, here **local Storage** is used :
@@ -39,8 +51,4 @@ To Get the **URL** of the current tab from a Google Chrome extension
     ] 
 ```
 
-## To use this extension or add more features
-
-   - download this repo in your destop 
-   - go to chrome extensions and *load* this folder (if load option not available turn ON the developer mode)
-   - all set to go
+---
